@@ -6,26 +6,42 @@
 </head>
 
 <body>
-    <div id="divForm">
-        <Form method="get" action="">
+    <div id="divPrincipal">
+        <div id="divTop">
+            <h1>Cadastre-se</h1>
+            <p>É rápido e fácil.</p>
+        </div>
+        <div id="divForm">
+            <Form method="get" action="">
 
-            <div>
-            <label><p>Nome: </p><input class="" type="text" name="name" value="" placeholder="Diite aqui seu nome..." /></label>
-            </div>
+                <div class="inputForm">
+                    <label>
+                        <input id="name" type="text" name="name" value="" placeholder="Nome" />
+                        <input id="lastName" type="text" name="last-name" value="" placeholder="Sobrenome" />
+                    </label>
+                </div>
 
-            <div>
-            <label><p>Idade: </p><input type="text" name="year" placeholder="Digite aqui sua idade..." /></label>
-            </div>
+                <div class="inputForm">
+                    <label>
+                        <input id="year" type="text" name="year" placeholder="Idade" /> 
+                        <input id="tel" type="text" name="tel" value="" placeholder="Celular" />
+                    </label>
+                </div>
 
-            <div>
-            <label><p>Telefone: </p><input type="text" name="telefone" value="" placeholder="Digite aqui seu número..." > </label>
-            </div>
+                <div class="inputForm">
+                <label><input id="email" type="text" name="email" placeholder="E-mail" /> </label>
+                </div>
 
-            <div id="divSubmit">
-            <input type="submit" name="submit" value="Enviar" />
-            </div>
-        </Form>
+                <div class="inputForm">
+                    <label><input id="password" type="password" name="senha" value="" placeholder="Nova senha" > </label>
+                    </div>
+
+                <div id="divSubmit">
+                <input id="enviar" type="submit" name="submit" value="Cadastre-se" />
+                </div>
+            </Form>
+        </div>
     </div>
-    
+        
 </body>
 </html>
